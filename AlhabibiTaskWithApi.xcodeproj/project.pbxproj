@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D4AA10D1E5BFA7B00AAB32F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4AA10C1E5BFA7B00AAB32F /* AppDelegate.swift */; };
+		1D4AA10F1E5BFA7B00AAB32F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4AA10E1E5BFA7B00AAB32F /* ViewController.swift */; };
+		1D4AA1121E5BFA7B00AAB32F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D4AA1101E5BFA7B00AAB32F /* Main.storyboard */; };
+		1D4AA1151E5BFA7B00AAB32F /* AlhabibiTaskWithApi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1D4AA1131E5BFA7B00AAB32F /* AlhabibiTaskWithApi.xcdatamodeld */; };
+		1D4AA1171E5BFA7B00AAB32F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D4AA1161E5BFA7B00AAB32F /* Assets.xcassets */; };
+		1D4AA11A1E5BFA7B00AAB32F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D4AA1181E5BFA7B00AAB32F /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D4AA1091E5BFA7B00AAB32F /* AlhabibiTaskWithApi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlhabibiTaskWithApi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D4AA10C1E5BFA7B00AAB32F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1D4AA10E1E5BFA7B00AAB32F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1D4AA1111E5BFA7B00AAB32F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1D4AA1141E5BFA7B00AAB32F /* AlhabibiTaskWithApi.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AlhabibiTaskWithApi.xcdatamodel; sourceTree = "<group>"; };
+		1D4AA1161E5BFA7B00AAB32F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1D4AA1191E5BFA7B00AAB32F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1D4AA11B1E5BFA7B00AAB32F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D4AA1061E5BFA7B00AAB32F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D4AA1001E5BFA7B00AAB32F = {
+			isa = PBXGroup;
+			children = (
+				1D4AA10B1E5BFA7B00AAB32F /* AlhabibiTaskWithApi */,
+				1D4AA10A1E5BFA7B00AAB32F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1D4AA10A1E5BFA7B00AAB32F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D4AA1091E5BFA7B00AAB32F /* AlhabibiTaskWithApi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D4AA10B1E5BFA7B00AAB32F /* AlhabibiTaskWithApi */ = {
+			isa = PBXGroup;
+			children = (
+				1D4AA10C1E5BFA7B00AAB32F /* AppDelegate.swift */,
+				1D4AA10E1E5BFA7B00AAB32F /* ViewController.swift */,
+				1D4AA1101E5BFA7B00AAB32F /* Main.storyboard */,
+				1D4AA1161E5BFA7B00AAB32F /* Assets.xcassets */,
+				1D4AA1181E5BFA7B00AAB32F /* LaunchScreen.storyboard */,
+				1D4AA11B1E5BFA7B00AAB32F /* Info.plist */,
+				1D4AA1131E5BFA7B00AAB32F /* AlhabibiTaskWithApi.xcdatamodeld */,
+			);
+			path = AlhabibiTaskWithApi;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D4AA1081E5BFA7B00AAB32F /* AlhabibiTaskWithApi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D4AA11E1E5BFA7B00AAB32F /* Build configuration list for PBXNativeTarget "AlhabibiTaskWithApi" */;
+			buildPhases = (
+				1D4AA1051E5BFA7B00AAB32F /* Sources */,
+				1D4AA1061E5BFA7B00AAB32F /* Frameworks */,
+				1D4AA1071E5BFA7B00AAB32F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlhabibiTaskWithApi;
+			productName = AlhabibiTaskWithApi;
+			productReference = 1D4AA1091E5BFA7B00AAB32F /* AlhabibiTaskWithApi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D4AA1011E5BFA7B00AAB32F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Sierra 4";
+				TargetAttributes = {
+					1D4AA1081E5BFA7B00AAB32F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1D4AA1041E5BFA7B00AAB32F /* Build configuration list for PBXProject "AlhabibiTaskWithApi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1D4AA1001E5BFA7B00AAB32F;
+			productRefGroup = 1D4AA10A1E5BFA7B00AAB32F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D4AA1081E5BFA7B00AAB32F /* AlhabibiTaskWithApi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D4AA1071E5BFA7B00AAB32F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D4AA11A1E5BFA7B00AAB32F /* LaunchScreen.storyboard in Resources */,
+				1D4AA1171E5BFA7B00AAB32F /* Assets.xcassets in Resources */,
+				1D4AA1121E5BFA7B00AAB32F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D4AA1051E5BFA7B00AAB32F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D4AA10F1E5BFA7B00AAB32F /* ViewController.swift in Sources */,
+				1D4AA10D1E5BFA7B00AAB32F /* AppDelegate.swift in Sources */,
+				1D4AA1151E5BFA7B00AAB32F /* AlhabibiTaskWithApi.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1D4AA1101E5BFA7B00AAB32F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D4AA1111E5BFA7B00AAB32F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1D4AA1181E5BFA7B00AAB32F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D4AA1191E5BFA7B00AAB32F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D4AA11C1E5BFA7B00AAB32F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1D4AA11D1E5BFA7B00AAB32F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1D4AA11F1E5BFA7B00AAB32F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AlhabibiTaskWithApi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = codebrew.AlhabibiTaskWithApi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1D4AA1201E5BFA7B00AAB32F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AlhabibiTaskWithApi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = codebrew.AlhabibiTaskWithApi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D4AA1041E5BFA7B00AAB32F /* Build configuration list for PBXProject "AlhabibiTaskWithApi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D4AA11C1E5BFA7B00AAB32F /* Debug */,
+				1D4AA11D1E5BFA7B00AAB32F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D4AA11E1E5BFA7B00AAB32F /* Build configuration list for PBXNativeTarget "AlhabibiTaskWithApi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D4AA11F1E5BFA7B00AAB32F /* Debug */,
+				1D4AA1201E5BFA7B00AAB32F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1D4AA1131E5BFA7B00AAB32F /* AlhabibiTaskWithApi.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1D4AA1141E5BFA7B00AAB32F /* AlhabibiTaskWithApi.xcdatamodel */,
+			);
+			currentVersion = 1D4AA1141E5BFA7B00AAB32F /* AlhabibiTaskWithApi.xcdatamodel */;
+			path = AlhabibiTaskWithApi.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1D4AA1011E5BFA7B00AAB32F /* Project object */;
+}
