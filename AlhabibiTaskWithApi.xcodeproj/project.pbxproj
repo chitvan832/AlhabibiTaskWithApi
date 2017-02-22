@@ -7,12 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13D7C001DC65862DFD8C13D2 /* Pods_AlhabibiTaskWithApi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2E85FBE0BC079699FDD5011 /* Pods_AlhabibiTaskWithApi.framework */; };
 		1D4AA10D1E5BFA7B00AAB32F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4AA10C1E5BFA7B00AAB32F /* AppDelegate.swift */; };
 		1D4AA10F1E5BFA7B00AAB32F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4AA10E1E5BFA7B00AAB32F /* ViewController.swift */; };
 		1D4AA1121E5BFA7B00AAB32F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D4AA1101E5BFA7B00AAB32F /* Main.storyboard */; };
 		1D4AA1151E5BFA7B00AAB32F /* AlhabibiTaskWithApi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1D4AA1131E5BFA7B00AAB32F /* AlhabibiTaskWithApi.xcdatamodeld */; };
-		1D4AA1171E5BFA7B00AAB32F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D4AA1161E5BFA7B00AAB32F /* Assets.xcassets */; };
 		1D4AA11A1E5BFA7B00AAB32F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D4AA1181E5BFA7B00AAB32F /* LaunchScreen.storyboard */; };
+		1D4AA1221E5C470200AAB32F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D4AA1211E5C470200AAB32F /* Assets.xcassets */; };
+		1D4AA1251E5C63BD00AAB32F /* ApiHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4AA1241E5C63BD00AAB32F /* ApiHandler.swift */; };
+		1D4AA12A1E5C66F800AAB32F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4AA1291E5C66F800AAB32F /* User.swift */; };
+		1D4AA12C1E5C6C9500AAB32F /* SignUPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4AA12B1E5C6C9500AAB32F /* SignUPViewController.swift */; };
+		1D4AA12E1E5C85EA00AAB32F /* FinalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4AA12D1E5C85EA00AAB32F /* FinalViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,9 +26,16 @@
 		1D4AA10E1E5BFA7B00AAB32F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1D4AA1111E5BFA7B00AAB32F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1D4AA1141E5BFA7B00AAB32F /* AlhabibiTaskWithApi.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AlhabibiTaskWithApi.xcdatamodel; sourceTree = "<group>"; };
-		1D4AA1161E5BFA7B00AAB32F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D4AA1191E5BFA7B00AAB32F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1D4AA11B1E5BFA7B00AAB32F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D4AA1211E5C470200AAB32F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1D4AA1241E5C63BD00AAB32F /* ApiHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiHandler.swift; sourceTree = "<group>"; };
+		1D4AA1291E5C66F800AAB32F /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		1D4AA12B1E5C6C9500AAB32F /* SignUPViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUPViewController.swift; sourceTree = "<group>"; };
+		1D4AA12D1E5C85EA00AAB32F /* FinalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinalViewController.swift; sourceTree = "<group>"; };
+		9FC9F8383FEAB2B3B45C303C /* Pods-AlhabibiTaskWithApi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlhabibiTaskWithApi.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlhabibiTaskWithApi/Pods-AlhabibiTaskWithApi.release.xcconfig"; sourceTree = "<group>"; };
+		D2E85FBE0BC079699FDD5011 /* Pods_AlhabibiTaskWithApi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlhabibiTaskWithApi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E281A438B1359614EBAA6704 /* Pods-AlhabibiTaskWithApi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlhabibiTaskWithApi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlhabibiTaskWithApi/Pods-AlhabibiTaskWithApi.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13D7C001DC65862DFD8C13D2 /* Pods_AlhabibiTaskWithApi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		010BFC32C4C2986315E7DDC6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2E85FBE0BC079699FDD5011 /* Pods_AlhabibiTaskWithApi.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		1D4AA1001E5BFA7B00AAB32F = {
 			isa = PBXGroup;
 			children = (
 				1D4AA10B1E5BFA7B00AAB32F /* AlhabibiTaskWithApi */,
 				1D4AA10A1E5BFA7B00AAB32F /* Products */,
+				98F3EF46878ADB367B4A1497 /* Pods */,
+				010BFC32C4C2986315E7DDC6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +79,60 @@
 		1D4AA10B1E5BFA7B00AAB32F /* AlhabibiTaskWithApi */ = {
 			isa = PBXGroup;
 			children = (
+				1D4AA1261E5C66A300AAB32F /* MVC */,
+				1D4AA1231E5C639E00AAB32F /* ApiHandler */,
 				1D4AA10C1E5BFA7B00AAB32F /* AppDelegate.swift */,
-				1D4AA10E1E5BFA7B00AAB32F /* ViewController.swift */,
 				1D4AA1101E5BFA7B00AAB32F /* Main.storyboard */,
-				1D4AA1161E5BFA7B00AAB32F /* Assets.xcassets */,
 				1D4AA1181E5BFA7B00AAB32F /* LaunchScreen.storyboard */,
+				1D4AA1211E5C470200AAB32F /* Assets.xcassets */,
 				1D4AA11B1E5BFA7B00AAB32F /* Info.plist */,
 				1D4AA1131E5BFA7B00AAB32F /* AlhabibiTaskWithApi.xcdatamodeld */,
 			);
 			path = AlhabibiTaskWithApi;
+			sourceTree = "<group>";
+		};
+		1D4AA1231E5C639E00AAB32F /* ApiHandler */ = {
+			isa = PBXGroup;
+			children = (
+				1D4AA1241E5C63BD00AAB32F /* ApiHandler.swift */,
+			);
+			name = ApiHandler;
+			sourceTree = "<group>";
+		};
+		1D4AA1261E5C66A300AAB32F /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				1D4AA1281E5C66B200AAB32F /* ViewController */,
+				1D4AA1271E5C66AA00AAB32F /* Model */,
+			);
+			name = MVC;
+			sourceTree = "<group>";
+		};
+		1D4AA1271E5C66AA00AAB32F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1D4AA1291E5C66F800AAB32F /* User.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		1D4AA1281E5C66B200AAB32F /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1D4AA10E1E5BFA7B00AAB32F /* ViewController.swift */,
+				1D4AA12B1E5C6C9500AAB32F /* SignUPViewController.swift */,
+				1D4AA12D1E5C85EA00AAB32F /* FinalViewController.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		98F3EF46878ADB367B4A1497 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E281A438B1359614EBAA6704 /* Pods-AlhabibiTaskWithApi.debug.xcconfig */,
+				9FC9F8383FEAB2B3B45C303C /* Pods-AlhabibiTaskWithApi.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +142,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1D4AA11E1E5BFA7B00AAB32F /* Build configuration list for PBXNativeTarget "AlhabibiTaskWithApi" */;
 			buildPhases = (
+				CEEF41ADBEAB534F03C6198B /* [CP] Check Pods Manifest.lock */,
 				1D4AA1051E5BFA7B00AAB32F /* Sources */,
 				1D4AA1061E5BFA7B00AAB32F /* Frameworks */,
 				1D4AA1071E5BFA7B00AAB32F /* Resources */,
+				778CBD1C2E95C26258054739 /* [CP] Embed Pods Frameworks */,
+				FD10654E226CD20BFEC5DDBA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -127,12 +198,60 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D4AA11A1E5BFA7B00AAB32F /* LaunchScreen.storyboard in Resources */,
-				1D4AA1171E5BFA7B00AAB32F /* Assets.xcassets in Resources */,
+				1D4AA1221E5C470200AAB32F /* Assets.xcassets in Resources */,
 				1D4AA1121E5BFA7B00AAB32F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		778CBD1C2E95C26258054739 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlhabibiTaskWithApi/Pods-AlhabibiTaskWithApi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEEF41ADBEAB534F03C6198B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10654E226CD20BFEC5DDBA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlhabibiTaskWithApi/Pods-AlhabibiTaskWithApi-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1D4AA1051E5BFA7B00AAB32F /* Sources */ = {
@@ -140,8 +259,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D4AA10F1E5BFA7B00AAB32F /* ViewController.swift in Sources */,
+				1D4AA12E1E5C85EA00AAB32F /* FinalViewController.swift in Sources */,
 				1D4AA10D1E5BFA7B00AAB32F /* AppDelegate.swift in Sources */,
 				1D4AA1151E5BFA7B00AAB32F /* AlhabibiTaskWithApi.xcdatamodeld in Sources */,
+				1D4AA12A1E5C66F800AAB32F /* User.swift in Sources */,
+				1D4AA12C1E5C6C9500AAB32F /* SignUPViewController.swift in Sources */,
+				1D4AA1251E5C63BD00AAB32F /* ApiHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +383,7 @@
 		};
 		1D4AA11F1E5BFA7B00AAB32F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E281A438B1359614EBAA6704 /* Pods-AlhabibiTaskWithApi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AlhabibiTaskWithApi/Info.plist;
@@ -272,6 +396,7 @@
 		};
 		1D4AA1201E5BFA7B00AAB32F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FC9F8383FEAB2B3B45C303C /* Pods-AlhabibiTaskWithApi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AlhabibiTaskWithApi/Info.plist;
@@ -301,6 +426,7 @@
 				1D4AA1201E5BFA7B00AAB32F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
